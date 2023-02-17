@@ -4,6 +4,8 @@
 # Author:       Jeremiah Hansen, Caleb Baechtold
 # Last Updated: 1/9/2023
 #------------------------------------------------------------------------------
+# SnowCLI build: snow procedure create
+# SnowCLI run: snow procedure execute -p "daily_city_metrics_update_sp()"
 
 import time
 from snowflake.snowpark import Session

@@ -4,6 +4,8 @@
 # Author:       Jeremiah Hansen, Caleb Baechtold
 # Last Updated: 1/9/2023
 #------------------------------------------------------------------------------
+# SnowCLI build: snow procedure create
+# SnowCLI run: snow procedure execute -p "orders_update_sp()"
 
 # SNOWFLAKE ADVANTAGE: Python Stored Procedures
 

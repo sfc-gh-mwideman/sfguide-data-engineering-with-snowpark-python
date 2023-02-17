@@ -9,6 +9,9 @@
 # SNOWFLAKE ADVANTAGE: Python UDFs (with third-party packages)
 # SNOWFLAKE ADVANTAGE: SnowCLI (PuPr)
 
+# SnowCLI build: snow function create
+# SnowCLI run: snow function execute -f "fahrenheit_to_celsius_udf(35)"
+
 import sys
 
 def main(temp_f: float) -> float:
